@@ -31,17 +31,17 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 287368166;
-			PBXWorkspaceStateSaveDate = 287368166;
+			PBXPerProjectTemplateStateSaveDate = 287379018;
+			PBXWorkspaceStateSaveDate = 287379018;
 		};
 		perUserProjectItems = {
-			69968E6A11210BB5004C6277 /* PBXTextBookmark */ = 69968E6A11210BB5004C6277 /* PBXTextBookmark */;
-			69968E6C11210BB5004C6277 /* PBXTextBookmark */ = 69968E6C11210BB5004C6277 /* PBXTextBookmark */;
-			69968E6D11210BB5004C6277 /* PBXTextBookmark */ = 69968E6D11210BB5004C6277 /* PBXTextBookmark */;
-			69968E6E11210BB5004C6277 /* PBXTextBookmark */ = 69968E6E11210BB5004C6277 /* PBXTextBookmark */;
-			69968E6F11210BB5004C6277 /* PBXTextBookmark */ = 69968E6F11210BB5004C6277 /* PBXTextBookmark */;
-			69968E7111210BB5004C6277 /* PBXTextBookmark */ = 69968E7111210BB5004C6277 /* PBXTextBookmark */;
-			69968E7211210BB5004C6277 /* PBXTextBookmark */ = 69968E7211210BB5004C6277 /* PBXTextBookmark */;
+			69968E6A11210BB5004C6277 = 69968E6A11210BB5004C6277 /* PBXTextBookmark */;
+			69968E6C11210BB5004C6277 = 69968E6C11210BB5004C6277 /* PBXTextBookmark */;
+			69968E6D11210BB5004C6277 = 69968E6D11210BB5004C6277 /* PBXTextBookmark */;
+			69968E6E11210BB5004C6277 = 69968E6E11210BB5004C6277 /* PBXTextBookmark */;
+			69968E6F11210BB5004C6277 = 69968E6F11210BB5004C6277 /* PBXTextBookmark */;
+			69968E7111210BB5004C6277 = 69968E7111210BB5004C6277 /* PBXTextBookmark */;
+			69968E7211210BB5004C6277 = 69968E7211210BB5004C6277 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 69968E221120E401004C6277 /* Source Control */;
 		userBuildSettings = {
@@ -111,6 +111,7 @@
 	};
 	69968E6B11210BB5004C6277 /* WhatATool.s */ = {
 		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.asm;
 		name = WhatATool.s;
 		path = "/Users/bbutz/Projects/WhatATool/build/WhatATool.build/Debug/WhatATool.build/Objects-normal/i386/WhatATool.s";
 		sourceTree = "<absolute>";
@@ -157,6 +158,7 @@
 	};
 	69968E7011210BB5004C6277 /* WhatATool.s */ = {
 		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.asm;
 		name = WhatATool.s;
 		path = "/Users/bbutz/Projects/WhatATool/build/WhatATool.build/Debug/WhatATool.build/Objects-normal/i386/WhatATool.s";
 		sourceTree = "<absolute>";
