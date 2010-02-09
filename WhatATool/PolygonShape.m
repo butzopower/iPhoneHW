@@ -44,4 +44,47 @@
 	}
 }
 
+- (id)initWithNumberOfSides:(int)sides minimumNumberOfSides:(int)min maximumNumberOfSides:(int)max {
+	[self setMinimumNumberOfSides: min];
+	[self setMaximumNumberOfSides: max];
+	[self setNumberOfSides: sides];
+	
+	return self;
+}
+
+- (id)init {
+	return [self initWithNumberOfSides: 5 
+				  minimumNumberOfSides: 3
+				  maximumNumberOfSides: 10];
+}
+
+- (float)angleInDegrees {
+	return (180 * (numberOfSides - 2) / numberOfSides);
+}
+
+- (float)angleInRadians {
+	return ([self angleInDegrees] / M_PI);
+}
+
+- (NSString *)name {
+	switch(numberOfSides) {
+		case 3:
+			return @"Triangle";
+		case 4:
+			return @"Square";
+		default:
+			return [NSString stringWithFormat:@"%d-agon", numberOfSides];
+	}
+}
+
+- (NSString *)description {
+	return [NSString stringWithFormat:@"Hello I am a %d-sided polygon (aka a %@) with angles of %f degrees (%f radians)", 
+			numberOfSides, [self name], [self angleInDegrees], [self angleInRadians]];
+}
+
+- (void)delloc {
+	NSLog(@"Deallocating");
+	[super dealloc];
+}
+
 @end
