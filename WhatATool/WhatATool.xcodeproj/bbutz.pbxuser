@@ -1,0 +1,190 @@
+// !$*UTF8*$!
+{
+	08FB7793FE84155DC02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 69968E101120E3E6004C6277 /* WhatATool */;
+		activeTarget = 8DD76F960486AA7600D96B5E /* WhatATool */;
+		codeSenseManager = 69968E231120E401004C6277 /* Code sense */;
+		executables = (
+			69968E101120E3E6004C6277 /* WhatATool */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					341,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 287368166;
+			PBXWorkspaceStateSaveDate = 287368166;
+		};
+		perUserProjectItems = {
+			69968E6A11210BB5004C6277 /* PBXTextBookmark */ = 69968E6A11210BB5004C6277 /* PBXTextBookmark */;
+			69968E6C11210BB5004C6277 /* PBXTextBookmark */ = 69968E6C11210BB5004C6277 /* PBXTextBookmark */;
+			69968E6D11210BB5004C6277 /* PBXTextBookmark */ = 69968E6D11210BB5004C6277 /* PBXTextBookmark */;
+			69968E6E11210BB5004C6277 /* PBXTextBookmark */ = 69968E6E11210BB5004C6277 /* PBXTextBookmark */;
+			69968E6F11210BB5004C6277 /* PBXTextBookmark */ = 69968E6F11210BB5004C6277 /* PBXTextBookmark */;
+			69968E7111210BB5004C6277 /* PBXTextBookmark */ = 69968E7111210BB5004C6277 /* PBXTextBookmark */;
+			69968E7211210BB5004C6277 /* PBXTextBookmark */ = 69968E7211210BB5004C6277 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 69968E221120E401004C6277 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	08FB7796FE84155DC02AAC07 /* WhatATool.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {552, 1134}}";
+			sepNavSelRange = "{1214, 3}";
+			sepNavVisRange = "{1664, 746}";
+			sepNavWindowFrame = "{{15, 315}, {750, 558}}";
+		};
+	};
+	32A70AAB03705E1F00C91783 /* WhatATool_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {558, 253}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 160}";
+		};
+	};
+	69968E101120E3E6004C6277 /* WhatATool */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = WhatATool;
+		savedGlobals = {
+		};
+		sourceDirectories = (
+		);
+	};
+	69968E221120E401004C6277 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	69968E231120E401004C6277 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	69968E6A11210BB5004C6277 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 69968E6B11210BB5004C6277 /* WhatATool.s */;
+		name = "WhatATool.s: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 679;
+		vrLoc = 0;
+	};
+	69968E6B11210BB5004C6277 /* WhatATool.s */ = {
+		isa = PBXFileReference;
+		name = WhatATool.s;
+		path = "/Users/bbutz/Projects/WhatATool/build/WhatATool.build/Debug/WhatATool.build/Objects-normal/i386/WhatATool.s";
+		sourceTree = "<absolute>";
+	};
+	69968E6C11210BB5004C6277 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32A70AAB03705E1F00C91783 /* WhatATool_Prefix.pch */;
+		name = "WhatATool_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 160;
+		vrLoc = 0;
+	};
+	69968E6D11210BB5004C6277 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* WhatATool.m */;
+		name = "WhatATool.m: 9";
+		rLen = 0;
+		rLoc = 2409;
+		rType = 0;
+		vrLen = 305;
+		vrLoc = 0;
+	};
+	69968E6E11210BB5004C6277 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* WhatATool.m */;
+		name = "WhatATool.m: 9";
+		rLen = 0;
+		rLoc = 2409;
+		rType = 0;
+		vrLen = 305;
+		vrLoc = 0;
+	};
+	69968E6F11210BB5004C6277 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 69968E7011210BB5004C6277 /* WhatATool.s */;
+		name = "WhatATool.s: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 679;
+		vrLoc = 0;
+	};
+	69968E7011210BB5004C6277 /* WhatATool.s */ = {
+		isa = PBXFileReference;
+		name = WhatATool.s;
+		path = "/Users/bbutz/Projects/WhatATool/build/WhatATool.build/Debug/WhatATool.build/Objects-normal/i386/WhatATool.s";
+		sourceTree = "<absolute>";
+	};
+	69968E7111210BB5004C6277 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32A70AAB03705E1F00C91783 /* WhatATool_Prefix.pch */;
+		name = "WhatATool_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 160;
+		vrLoc = 0;
+	};
+	69968E7211210BB5004C6277 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* WhatATool.m */;
+		name = "WhatATool.m: 38";
+		rLen = 3;
+		rLoc = 1214;
+		rType = 0;
+		vrLen = 746;
+		vrLoc = 1664;
+	};
+	8DD76F960486AA7600D96B5E /* WhatATool */ = {
+		activeExec = 0;
+		executables = (
+			69968E101120E3E6004C6277 /* WhatATool */,
+		);
+	};
+}
