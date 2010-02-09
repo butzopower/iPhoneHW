@@ -72,6 +72,22 @@
 			return @"Triangle";
 		case 4:
 			return @"Square";
+		case 5:
+			return @"Pentagon";
+		case 6:
+			return @"Hexagon";
+		case 7:
+			return @"Heptagon";
+		case 8:
+			return @"Octagon";
+		case 9:
+			return @"Nonagon";
+		case 10:
+			return @"Decagon";
+		case 11:
+			return @"Hendecagon";
+		case 12:
+			return @"Dodecagon";
 		default:
 			return [NSString stringWithFormat:@"%d-agon", numberOfSides];
 	}
@@ -83,7 +99,7 @@
 }
 
 - (void)delloc {
-	NSLog(@"Deallocating");
+	NSLog(@"Deallocating"); // This never gets called for some reason
 	[super dealloc];
 }
 

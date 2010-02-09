@@ -1,3 +1,7 @@
+// Brian Butz
+// HW2
+// 02/08/2010
+
 #import <Foundation/Foundation.h>
 #import "PolygonShape.h"
 
@@ -54,7 +58,7 @@ void PrintIntrospectionInfo() {
 	
 	NSMutableArray *array = 
 	[NSMutableArray arrayWithObjects:
-	 @"STRING, INSTANTLY, IN 20 SECONDS FLAT",
+	 @"I AM INSTANTIATE FOR REAL",
 	 [NSURL URLWithString:@"http://www.google.com"],
 	 [NSDictionary dictionaryWithObjectsAndKeys: @"key", @"value", nil],
 	 [NSMutableString stringWithString:@"IMMA MUTANT!"],
@@ -87,10 +91,28 @@ void PrintPolygonInfo() {
 	[polygon1 setMinimumNumberOfSides:3];
 	[polygon1 setMaximumNumberOfSides:7];
 	[polygon1 setNumberOfSides:4];
-	NSLog([polygon1 description]);
-	[polygon1 setNumberOfSides:5];
-	NSLog([polygon1 description]);
+	
+	PolygonShape *polygon2 = [[PolygonShape alloc] initWithNumberOfSides:6 minimumNumberOfSides:5 maximumNumberOfSides:9];
+	
+	PolygonShape *polygon3 = [[PolygonShape alloc] init];
+	
+	[array addObject:polygon1];
+	[array addObject:polygon2];
+	[array addObject:polygon3];
+	
+	for (id polygon in array) {
+		NSLog([polygon description]);
+	}
+	
 	[polygon1 setNumberOfSides:2];
+	[polygon1 setNumberOfSides:10];
+	
+	[array removeAllObjects];
+	[array release];
+	
+	[polygon1 release];
+	[polygon2 release];
+	[polygon3 release];
 }
 
 int main (int argc, const char * argv[]) {

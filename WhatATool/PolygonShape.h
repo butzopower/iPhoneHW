@@ -13,9 +13,6 @@
 	int numberOfSides;
 	int minimumNumberOfSides;
 	int maximumNumberOfSides;
-	float angleInDegrees;
-	float angleInRadians;
-	NSString *name;
 }
 
 @property int numberOfSides;
@@ -24,5 +21,7 @@
 @property (readonly) float angleInDegrees;
 @property (readonly) float angleInRadians;
 @property (readonly) NSString *name;
+
+-(id)initWithNumberOfSides:(int)sides minimumNumberOfSides:(int)min maximumNumberOfSides:(int)max;
 
 @end
